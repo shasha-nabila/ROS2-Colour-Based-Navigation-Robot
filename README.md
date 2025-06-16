@@ -11,6 +11,8 @@ This project demonstrates an autonomous mobile robot using ROS2, Gazebo, and Ope
 ## 🎥 Demo Video
 Due to the extensive setup requirements and dependencies (ROS2, Gazebo, Nav2, custom map, and containerized environment), a recorded demonstration is provided instead.
 
+https://github.com/user-attachments/assets/50634fcf-b066-4041-8cd8-d08e0db9fe01
+
 ## 🤖 How It Works
 1. Waypoint Exploration
 The robot follows a series of predefined (x, y, θ) waypoints aligned to a known map grid.
