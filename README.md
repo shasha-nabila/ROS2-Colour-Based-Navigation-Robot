@@ -14,10 +14,10 @@ Due to the extensive setup requirements and dependencies (ROS2, Gazebo, Nav2, cu
 https://github.com/user-attachments/assets/50634fcf-b066-4041-8cd8-d08e0db9fe01
 
 ## 🤖 How It Works
-1. Waypoint Exploration
+1. Waypoint Exploration  
 The robot follows a series of predefined (x, y, θ) waypoints aligned to a known map grid.
 
-2. Object Detection
+2. Object Detection  
 The `/camera/image_raw` stream is processed using OpenCV to detect green, red, and blue boxes.
 
 3. Blue Box Logic
@@ -27,5 +27,5 @@ The `/camera/image_raw` stream is processed using OpenCV to detect green, red, a
 
 ## 📸 Detection Visualization
 The processed image window (Color Detection) will show:
-- ✅ Green, red, and blue contours highlighted with circles
-- ✅ Live feedback for centering and distance estimation
+- Green, red, and blue contours highlighted with circles
+- Live feedback for centering and distance estimation
